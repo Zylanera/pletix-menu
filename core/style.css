@@ -1,0 +1,68 @@
+* {
+    background-image: linear-gradient(to right,rgb(96, 218, 255) 0%, rgb(31, 115, 141) 100%);
+    font-family: "Share Tech Mono", monospace;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 25px;
+}
+
+p {
+    font-weight: 900;
+    font-size: 25px;
+    margin: 3px;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background:rgb(15, 50, 61);
+    cursor: pointer;
+}
+
+button {
+    background: white;
+    padding: 10px;
+    width: auto;
+    position: relative;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 10px 0px 5px 0px;
+    border-color: white;
+    color: black;
+}
+
+button:hover {
+    background:rgb(41, 136, 165);
+    border: solid;
+    border-color: white;
+    color: white;
+}
+
+div {
+    display: flex;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+t {
+    color: White;
+    background: rgb(15, 50, 61);
+    width: 100%;
+    padding: 30px;
+}
+
+.important {
+    font-weight: 900;
+}
